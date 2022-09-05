@@ -1,0 +1,129 @@
+:root {
+  --background-color: #121212;
+  --title-color: #fcfcfc;
+  --text-color: #fcfcfc;
+
+  --border-color: rgba(255, 255, 255, 0.1);
+
+  --card-background: #171717;
+  --card-border:#252525;
+  --card-border-radius: 8px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  max-height: 100%;
+  font-family: "Helvetica Neue", sans-serif;
+  background-color: var(--background-color);
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url('/fonts/RobotoMono-Regular.woff') format('woff'),
+  url('/fonts/RobotoMono-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/Montserrat-Regular.woff') format('woff'),
+  url('/fonts/Montserrat-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.layered-shadow {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05),
+  0 6px 12px rgba(0, 0, 0, 0.10);
+}
+
+.container {
+  max-width: 1000px;
+  max-height: 100%;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: 400;
+  color: var(--title-color);
+  font-family: Montserrat, sans-serif;
+}
+
+p {
+  margin: 0;
+  color: var(--text-color);
+  font-family: "Roboto Mono", monospace;
+}
+
+@keyframes rgb {
+  0%, 100% {
+    background: #5f86f2;
+  }
+  12.5% {
+    background: #a65ff2;
+  }
+  25% {
+    background: #f25fd0;
+  }
+  37.5% {
+    background: #f25f61;
+  }
+  50% {
+    background: #f2cb5f;
+  }
+  62.5% {
+    background: #abf25f;
+  }
+  75% {
+    background: #5ff281;
+  }
+  87.5% {
+    background: #5ff2f0;
+  }
+  100% {
+    background: #5f86f2;
+  }
+}
+
+.rgb {
+  background: #5f86f2;
+  -webkit-animation: rgb 15s ease infinite;
+  -moz-animation: rgb 15s ease infinite;
+  animation: rgb 15s ease infinite;
+  transition: 300ms ease-in-out;
+}
+
+@keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+.progress-animation {
+  background-size: 30px 30px;
+  background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.3) 25%,
+          transparent 25%,
+          transparent 50%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.3) 75%,
+          transparent 75%, transparent);
+  animation: animate-stripes 3s linear infinite;
+  -webkit-animation: animate-stripes 2s linear infinite;
+  -moz-animation: animate-stripes 2s linear infinite;
+  -ms-animation: animate-stripes 2s linear infinite;
+}
