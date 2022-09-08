@@ -7,7 +7,7 @@ export let data
 <div class="section">
     <div class="container xl">
         <div class="header">
-            <h1>Roadmap</h1>
+            <h1>Hugin Roadmap</h1>
             <h2>This project is open source and maintained by the Community. You can
                 for example make changes to this site, suggest awesome new features,
                 or help us squash bugs.</h2>
