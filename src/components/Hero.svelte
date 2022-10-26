@@ -3,7 +3,7 @@
         <div class="hero">
             <h1>The new standard for communicating privately.</h1>
             <h2>Encrypted. Decentralized. Open-sourced.</h2>
-            <a href="https://github.com/kryptokrona/hugin-messenger/releases" target="_blank">Download</a>
+            <a href="https://github.com/kryptokrona/hugin-svelte/releases" target="_blank">Download</a>
         </div>
     </div>
 </div>

@@ -10,9 +10,8 @@ import {goto} from "$app/navigation";
             <h1>Hugin</h1>
         </div>
         <div class="navigation">
-            <a href="/roadmap" data-sveltekit-prefetch>Roadmap</a>
             <a href="/whitepaper" data-sveltekit-prefetch>Whitepaper</a>
-            <a href="https://kryptokrona.org" target="_blank">Kryptokrona</a>
+            <a href="https://kryptokrona.org" target="_blank">Kryptokrona -></a>
         </div>
     </div>
 </nav>

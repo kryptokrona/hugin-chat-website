@@ -1,7 +1,6 @@
 <script>
     import Features from "../components/Features.svelte";
     import Hero from "../components/Hero.svelte";
-    import TopPosts from "../components/TopPosts.svelte";
 
     export let data
 
@@ -13,7 +12,6 @@
 
 <Hero/>
 <Features/>
-<TopPosts posts={data.topPosts} />
 <!--
 <Roadmap data={data.cms} />
 -->

@@ -41,6 +41,7 @@
 
     .xl {
       max-width: 1400px;
+      margin-bottom: 2rem;
     }
 
     .card {

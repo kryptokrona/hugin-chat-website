@@ -28,8 +28,6 @@ export async function load() {
             topPosts.push(post)
         }
 
-        console.log(topPosts)
-
         return {cms, topPosts}
 
     } catch (error) {
