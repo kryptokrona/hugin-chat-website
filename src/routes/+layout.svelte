@@ -1,15 +1,14 @@
 <script>
-
-import Navbar from "../components/Navbar.svelte";
-import Footer from "../components/Footer.svelte";
+    import Navbar from "../components/Navbar.svelte";
+    import Footer from "../components/Footer.svelte";
 </script>
 
-<Navbar />
+<Navbar/>
 <main>
-    <slot />
+    <slot/>
 </main>
-<Footer />
+<Footer/>
 
 <style lang="scss" global>
-    @import "../theme/global.scss";
+  @import "../theme/global.scss";
 </style>
