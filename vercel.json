@@ -1,0 +1,14 @@
+{
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "cli.hugin.chat"
+        }
+      ],
+      "destination": "https://kryptokrona.github.io/hugin-cli"
+    }
+  ]
+}
