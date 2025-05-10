@@ -6,7 +6,7 @@
     <div class="grid">
         <div class="card layered-shadow">
                 <h2>Private Messages</h2>
-                <p>Every message is encrypted with leading asymmetric encryption, specifically NaCl. Read more about the encryption <a style={{color: "#fff"}} href="https://nacl.cr.yp.to/">here</a>. </p>
+                <p>Every message is encrypted with leading asymmetric encryption, specifically NaCl. Read more about the encryption <a href="https://nacl.cr.yp.to/">here</a>. </p>
         </div>
         <div class="card layered-shadow">
                 <h2> Voice & Video</h2>

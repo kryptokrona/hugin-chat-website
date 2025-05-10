@@ -134,7 +134,7 @@
             group is compromised.</p>
 
         <h3>NaCl</h3>
-        <p style={{fontStyle: "italic"}}>NaCl (pronounced "salt") is a new easy-to-use high-speed
+        <p>NaCl (pronounced "salt") is a new easy-to-use high-speed
             software library for network communication,
             encryption, decryption, signatures, etc. NaCl's goal is to provide all of the core operations
             needed to build
@@ -168,7 +168,7 @@
             messaging can be shared in public.</p>
 
         <h3>WebRTC</h3>
-        <p style={{fontStyle: "italic"}}>WebRTC (Web Real-Time Communication) is a free and open-source
+        <p>WebRTC (Web Real-Time Communication) is a free and open-source
             project providing web browsers and mobile
             applications with real-time communication (RTC) via simple application programming interfaces
             (APIs). It allows
@@ -188,7 +188,7 @@
             every node on the network.</p>
 
         <h3>BitTorrent</h3>
-        <p style={{fontStyle: "italic"}}>BitTorrent is a communication protocol for peer-to-peer file
+        <p>BitTorrent is a communication protocol for peer-to-peer file
             sharing (P2P), which enables users to distribute data
             and electronic files over the Internet in a decentralized manner (9).</p>
 
@@ -200,7 +200,7 @@
             which enables seamless and fast file sharing of even the largest of files.</p>
 
         <h3>OpenAlias</h3>
-        <p style={{fontStyle: "italic"}}>At its most basic, OpenAlias is a TXT DNS record on a FQDN
+        <p>At its most basic, OpenAlias is a TXT DNS record on a FQDN
             (fully qualified domain name). By combining this
             with DNS-related technologies we have created an aliasing standard that is extensible for
             developers, intuitive
