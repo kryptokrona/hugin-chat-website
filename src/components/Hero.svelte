@@ -14,6 +14,8 @@
 
 <style lang="scss">
 
+/* styles */
+
   .hero {
     display: flex;
     justify-content: center;
