@@ -36,9 +36,6 @@
 	"type": "module",
 	"dependencies": {
 	  "svelte-loading-spinners": "^0.1.7"
-	},
-	"engines": {
-	  "node": "22.x"
 	}
   }
   
